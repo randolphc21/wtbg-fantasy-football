@@ -19,5 +19,9 @@
   "homepage": "https://github.com/randolphc21/wtbg-fantasy-football#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "engines": {
+    "node": 10.13.0,
+    "npm":6.4.1
   }
 }
