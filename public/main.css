@@ -1,0 +1,33 @@
+
+.category {
+  width: 100%;
+  height: 300px;
+  padding: 15px;
+}
+
+#history {
+  background: pink;
+}
+
+#weekly-recap {
+  background: red;
+}
+
+#critics-report {
+  background: yellow;
+}
+
+#trade-block {
+  background: purple;
+}
+
+#media {
+  background: green;
+}
+
+#to-top {
+  position: fixed;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

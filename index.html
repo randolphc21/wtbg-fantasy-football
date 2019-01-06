@@ -9,21 +9,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+    <link href="main.css" rel="stylesheet" />
 
     <title>WTBG Fantasy Football</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="./bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="/bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="justified-nav.css" rel="stylesheet">
+    <link href="/justified-nav.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="/bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,7 +35,7 @@
 
   <body>
 
-    <div class="container">
+    <div class="container" id="home">
 
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
@@ -42,12 +43,12 @@
         <h3 class="text-muted">West the box god Fantasy Football</h3>
         <nav>
           <ul class="nav nav-justified">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Weekly Recap</a></li>
-            <li><a href="#">Critic's Report</a></li>
-            <li><a href="#">Trade Block</a></li>
-            <li><a href="#">Media</a></li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#weekly-recap">Weekly Recap</a></li>
+            <li><a href="#critics-report">Critic's Report</a></li>
+            <li><a href="#trade-block">Trade Block</a></li>
+            <li><a href="#media">Media</a></li>
           </ul>
         </nav>
       </div>
@@ -84,7 +85,20 @@
         <p>&copy; 2013 West the box god, Inc.</p>
       </footer>
 
+      <div id="history" class="category">Dicks</div>
+
+      <div id="weekly-recap" class="category">Dicks1</div>
+
+      <div id="critics-report" class="category">Dicks2</div>
+
+      <div id="trade-block" class="category">Dicks3</div>
+
+      <div id="media" class="category">Dicks3</div>
+
     </div> <!-- /container -->
+    <div id="to-top" class="btn btn-default">
+      <a href="#home"><i class="glyphicon glyphicon-chevron-up"></i></a>
+    </div>
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
